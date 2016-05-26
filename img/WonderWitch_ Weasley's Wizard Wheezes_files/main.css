@@ -1,0 +1,186 @@
+/*** sectioning elements ***/
+
+/*Fonts:
+ *font-family: 'Playfair Display SC', serif;
+ *font-family: 'Fontdiner Swanky', cursive;
+ *font-family: 'Playfair Display', serif;
+ *#caac92
+ *#63a29d
+ *#f9f0e8
+ *
+ *#481f25
+ *#DBBE7F
+ **/
+
+body {
+    background-color: #DBBE7F;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    background-color: #481f25;
+}
+
+main {
+    /* I wouldn't recommend applying any styles to this
+       section as the 'main' element is not supported
+       in all browsers yet. */
+}
+
+footer {
+    background-color: #481f25;
+    color: #DBBE7F;
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** base styles ***/
+
+h1 {
+    color: #DBBE7F;
+    font-family: 'Fontdiner Swanky', cursive;
+    text-align: center;
+}
+
+h1.red{
+    color: #481f25;
+}
+
+h2 {
+    color: #481f25;
+
+}
+
+h2.text-center{
+    text-align: center;
+}
+
+h2.item{
+    border-bottom: 4px solid #481f25;
+}
+
+footer h2{
+    color: #DBBE7F;
+}
+
+h3 {
+
+}
+
+footer h3{
+    text-align: center;
+}
+
+.price{
+    color: #481f25;
+    font-family: 'Playfair Display SC';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+span.number{
+    color: #DBBE7F;
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img  {
+    max-width: 100%;
+}
+
+img.logo {
+    max-height: 140px;
+}
+
+img.tiny-logo {
+    max-width: 75px;
+}
+
+img.item{
+    border: 2px solid #481f25;
+    width: 100%;
+}
+
+/*** link styles ***/
+
+a:link {
+    color: #B07800;
+}
+
+a:visited {
+    color: #B07800;
+}
+
+a:hover {
+    color: #B07800;
+}
+
+a:active {
+    color: #B07800;
+}
+
+
+/*** form styles (coming soon) ***/

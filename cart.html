@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Cart: Weasley's Wizard Wheezes</title>
+<link rel="icon" href="img/favicon.ico">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/grid_6.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+<link rel="stylesheet" href="css/cart.css">
+<link rel="stylesheet" href="css/forms.css">
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic|Fontdiner+Swanky|Playfair+Display' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+</head>
+
+<body onload="loadCart()">
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="one-third">
+                <a href="index.html"><img src="img/logo.png" class="logo"></a>
+            </div>
+            <div class="two-thirds">
+                <h1>WELCOME to Weasley's Wizard Wheezes!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="full">
+                <nav class="navbar lower-right static-mobile">
+                    <ul>
+                        <li><a href="just_for_fun.html">Just for Fun</a></li>
+                        <li><a href="sweets.html">Sweets</a></li>
+                        <li><a href="wonder_witch.html">WonderWitch</a></li>
+                        <li><a href="cart.html">My Cart (<span class="number" id="item_count">0</span>)</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        </div>
+    </div>
+</header>
+
+<div id="cart"></div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="one-third">
+                <h2>Join the Conversation</h2>
+            </div>
+            <div class="two-thirds">
+                <h2 class="text-center hide-mobile">More to Love</h2>
+            </div>
+        </div>    
+            <div class="row">
+                <div class="one-third">
+                    <h3 class="hide-desktop">Follow Us</h3>
+                    <img src="img/logo-FB.png" class="tiny-logo">
+                    <img src="img/logo-YT1.png" class="tiny-logo">
+                    <img src="img/logo-VN.png" class="tiny-logo"><br>
+                    <img src="img/logo-PT.png" class="tiny-logo">
+                    <img src="img/logo-GL.png" class="tiny-logo">
+                    <img src="img/logo-TW.png" class="tiny-logo">
+                </div>
+                <div class="one-sixth">
+                    <h3>Sister Businesses</h3>
+                    <ul>
+                        <li><a href="#">Sally's Seashells</a></li>
+                        <li><a href="#">Sammy's Swords</a></li>
+                        <li><a href="#">Lucy's Lotions</a></li>
+                        <li><a href="#">Alejandro's Alfredo</a></li>
+                        <li><a href="#">Ray's Rings</a></li>
+                    </ul>
+                </div>
+                <div class="one-sixth">
+                    <h3>Wizarding Associates & Sponsors</h3>
+                    <ul>
+                        <li>Harry J. Potter</li><br>
+                        <li>All the other Weasleys</li><br>
+                        <li>Albus Percival Wulfric Brian Dumbledore</li><br>
+                    </ul>
+                </div>
+                <div class="one-sixth">
+                    <h3>Magical Authorities</h3>
+                    <ul>
+                        <li>The Ministry of Magic</li><br>
+                        <li>J. K. Rowling, inc.</li><br>
+                        <li>Zonko's Jokes & co.</li><br>
+                    </ul><br>
+                </div>
+                <div class="one-sixth">
+                    <h3>Where are We?</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d875.2368452247248!2d-81.47301923502114!3d28.473094521928484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f1fcbd25735%3A0xba1fb958a3967afd!2sDiagon+Alley%2C+Orlando%2C+FL+32819!5e0!3m2!1sen!2sus!4v1462994465008" width="250" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="one-third">
+                    <p>Guest Support<br>(864)567-6666 email@gmail.net</p>
+                </div>
+                <div class="one-third">
+                    <p>&copyCopyright 2016 Weasley & Weasley</p>
+                </div>
+                <div class="one-third">
+                    <p>By Zoe S.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- JavaScript -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/cart.js"></script>
+
+<script>
+$('#my-carousel').owlCarousel({
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoplayTimeout: 4000,
+    dots: true,
+    nav: false,
+    items: 1,
+    loop: true,
+    margin: 15,
+})
+</script>
+
+</body>
+</html>
